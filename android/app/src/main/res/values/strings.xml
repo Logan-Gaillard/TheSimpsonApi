@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">thesimpsonapi</string>
+    <string name="title_activity_main">thesimpsonapi</string>
+    <string name="package_name">com.simpsons.logan</string>
+    <string name="custom_url_scheme">com.simpsons.logan</string>
+</resources>
