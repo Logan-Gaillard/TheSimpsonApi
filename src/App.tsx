@@ -6,7 +6,7 @@ import { Characters } from "./pages/Characters";
 function App() {
 	return (
 		<Routes>
-			<Route path="/characters" element={<Characters />} />
+			<Route path="/persos" element={<Characters />} />
 			<Route path="*" element={<Accueil />} />
 		</Routes>
 	);

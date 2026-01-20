@@ -29,7 +29,7 @@ export const Accueil = () => {
 							className="object-cover rounded-xl"
 							width={270}
 						/>
-						<Button className="mt-4" onPress={() => navigate("/characters")}>
+						<Button className="mt-4" onPress={() => navigate("/persos")}>
 							Accéder
 						</Button>
 					</CardBody>
