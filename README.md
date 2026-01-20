@@ -252,15 +252,10 @@ npx npm run build
 npx cap sync
 ```
 
-### ✅ Vérifier que tout fonctionne
+### ✅ Tout est bon !
 
-Lancez l'application en développement :
-
-```bash
-npm run dev
-```
-
-Ouvrez `http://localhost:5173` dans votre navigateur. Vous devriez voir la page d'accueil avec les Simpson !
+Vous avez enfin initié votre projet.
+Pour plus d'informations voici quelques notions ci-dessous.
 
 ### 📝 Scripts disponibles
 
@@ -271,19 +266,12 @@ Ouvrez `http://localhost:5173` dans votre navigateur. Vous devriez voir la page 
 | `npm run preview` | Prévisualise la build de production |
 | `npm run lint` | Vérifie la qualité du code |
 
-### 🚀 Prochaines étapes
-
-- Explorez les composants HeroUI disponibles
-- Ajoutez le localStorage pour persister les données
-- Créez d'autres pages et components
-- Déployez sur Android avec Capacitor
-
 ## 📁 Structure du Projet
 
 ```
 TheSimpsonApi/
-├── src/                    # Code source
-│   ├── components/        # Composants React réutilisables
+├── src/                  # Code source
+│   ├── components/       # Composants React réutilisables
 │   ├── pages/            # Pages de l'application
 │   ├── assets/           # Ressources statiques
 │   ├── App.tsx           # Composant principal
@@ -295,20 +283,6 @@ TheSimpsonApi/
 ├── tailwind.config.ts    # Configuration Tailwind CSS
 └── package.json          # Dépendances et scripts
 ```
-
-## 🎯 Pages Principales
-
-- **Accueil** - Page d'introduction de l'application
-- **Characters** - Liste des personnages des Simpson
-
-## 📝 Scripts Disponibles
-
-| Commande | Description |
-|----------|-------------|
-| `npm run dev` | Lance le serveur de développement |
-| `npm run build` | Crée une build de production |
-| `npm run preview` | Prévisualise la build de production |
-| `npm run lint` | Vérifie la qualité du code |
 
 ## 🤝 Contribuer
 
