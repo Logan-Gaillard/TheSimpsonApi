@@ -5,9 +5,13 @@ import App from "./App.tsx";
 import { HeroUIProvider } from "@heroui/react";
 import { BrowserRouter } from "react-router";
 import { Navbar } from "./layouts/Navbar.tsx";
+import { StatusBar } from '@capacitor/status-bar';
+
+StatusBar.setOverlaysWebView({ overlay: false });
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
+
 		<BrowserRouter>
 			<HeroUIProvider>
 				<Navbar />

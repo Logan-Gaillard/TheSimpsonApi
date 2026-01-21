@@ -1,4 +1,3 @@
-import React from "react";
 import { Button, Image } from "@heroui/react";
 import axios from "axios";
 import { useEffect, useState } from "react";

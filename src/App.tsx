@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import "./App.css";
 import { Accueil } from "./pages/Accueil";
-import { Characters } from "./pages/Characters";
+import { Characters } from "./pages/Persos";
 
 function App() {
 	return (
